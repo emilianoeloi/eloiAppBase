@@ -1,2 +1,1 @@
-# eloiAppBase
-eloiAppBase
+# Pod Eloi App Base
