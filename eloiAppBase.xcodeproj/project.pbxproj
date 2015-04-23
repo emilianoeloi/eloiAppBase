@@ -15,6 +15,7 @@
 		AC1A707A1AE9349B00210FCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1A70781AE9349B00210FCF /* LaunchScreen.xib */; };
 		AC1A70861AE9349B00210FCF /* eloiAppBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1A70851AE9349B00210FCF /* eloiAppBaseTests.m */; };
 		AC1A70921AE9369E00210FCF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1A70911AE9369E00210FCF /* Person.m */; };
+		ACFFE1531AE96C0500014ED7 /* EEBase.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFFE1521AE96C0500014ED7 /* EEBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		AC1A70851AE9349B00210FCF /* eloiAppBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eloiAppBaseTests.m; sourceTree = "<group>"; };
 		AC1A70901AE9369E00210FCF /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Classes/Person.h; sourceTree = "<group>"; };
 		AC1A70911AE9369E00210FCF /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Classes/Person.m; sourceTree = "<group>"; };
+		ACFFE1511AE96C0500014ED7 /* EEBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEBase.h; sourceTree = "<group>"; };
+		ACFFE1521AE96C0500014ED7 /* EEBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEBase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 		AC1A705D1AE9349B00210FCF = {
 			isa = PBXGroup;
 			children = (
+				ACFFE1511AE96C0500014ED7 /* EEBase.h */,
+				ACFFE1521AE96C0500014ED7 /* EEBase.m */,
 				AC1A70681AE9349B00210FCF /* eloiAppBase */,
 				AC1A70821AE9349B00210FCF /* eloiAppBaseTests */,
 				AC1A70671AE9349B00210FCF /* Products */,
@@ -236,6 +241,7 @@
 				AC1A706F1AE9349B00210FCF /* AppDelegate.m in Sources */,
 				AC1A70921AE9369E00210FCF /* Person.m in Sources */,
 				AC1A706C1AE9349B00210FCF /* main.m in Sources */,
+				ACFFE1531AE96C0500014ED7 /* EEBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +440,7 @@
 				AC1A708B1AE9349B00210FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC1A708C1AE9349B00210FCF /* Build configuration list for PBXNativeTarget "eloiAppBaseTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +449,7 @@
 				AC1A708E1AE9349B00210FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
