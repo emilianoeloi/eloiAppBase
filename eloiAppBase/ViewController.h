@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+    @property (weak, nonatomic) IBOutlet UILabel *productName;
+    @property (weak, nonatomic) IBOutlet UILabel *productColor;
+    @property (weak, nonatomic) IBOutlet UILabel *productLogoUrl;
 
 @end
 

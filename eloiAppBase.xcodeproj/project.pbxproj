@@ -14,6 +14,7 @@
 		AC1A70771AE9349B00210FCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1A70761AE9349B00210FCF /* Images.xcassets */; };
 		AC1A707A1AE9349B00210FCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1A70781AE9349B00210FCF /* LaunchScreen.xib */; };
 		AC1A70861AE9349B00210FCF /* eloiAppBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1A70851AE9349B00210FCF /* eloiAppBaseTests.m */; };
+		AC1A70921AE9369E00210FCF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1A70911AE9369E00210FCF /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AC1A707F1AE9349B00210FCF /* eloiAppBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eloiAppBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1A70841AE9349B00210FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC1A70851AE9349B00210FCF /* eloiAppBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eloiAppBaseTests.m; sourceTree = "<group>"; };
+		AC1A70901AE9369E00210FCF /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Classes/Person.h; sourceTree = "<group>"; };
+		AC1A70911AE9369E00210FCF /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Classes/Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		AC1A70681AE9349B00210FCF /* eloiAppBase */ = {
 			isa = PBXGroup;
 			children = (
+				AC1A708F1AE9368400210FCF /* Classes */,
 				AC1A706D1AE9349B00210FCF /* AppDelegate.h */,
 				AC1A706E1AE9349B00210FCF /* AppDelegate.m */,
 				AC1A70701AE9349B00210FCF /* ViewController.h */,
@@ -117,6 +121,15 @@
 				AC1A70841AE9349B00210FCF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC1A708F1AE9368400210FCF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A70901AE9369E00210FCF /* Person.h */,
+				AC1A70911AE9369E00210FCF /* Person.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				AC1A70721AE9349B00210FCF /* ViewController.m in Sources */,
 				AC1A706F1AE9349B00210FCF /* AppDelegate.m in Sources */,
+				AC1A70921AE9369E00210FCF /* Person.m in Sources */,
 				AC1A706C1AE9349B00210FCF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = eloiAppBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = eloiAppBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
